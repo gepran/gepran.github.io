@@ -6,23 +6,24 @@ const continue_btn = info_box.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
-const time_line = document.querySelector("header .time_line");
 const scoreCounter = document.querySelector(".score .score_counter");
 
 // if startQuiz button clicked
 start_btn.onclick = ()=>{
-    info_box.classList.add("activeInfo"); //show info box
+    start_btn.classList.add("d-none"); //hide start button
+    info_box.classList.remove("d-none"); //show info box
 }
 
 // if exitQuiz button clicked
 exit_btn.onclick = ()=>{
-    info_box.classList.remove("activeInfo"); //hide info box
+    info_box.classList.add("d-none"); //hide info box
+    start_btn.classList.remove("d-none"); //hide start button
 }
 
 // if continueQuiz button clicked
 continue_btn.onclick = ()=>{
-    info_box.classList.remove("activeInfo"); //hide info box
-    quiz_box.classList.add("activeQuiz"); //show quiz box
+    info_box.classList.add("d-none"); //hide info box
+    quiz_box.classList.remove("d-none"); //show quiz box
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
     scoreCalculator(); //calling Score function
@@ -38,8 +39,8 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 
 // if restartQuiz button clicked
 restart_quiz.onclick = ()=>{
-    quiz_box.classList.add("activeQuiz"); //show quiz box
-    result_box.classList.remove("activeResult"); //hide result box
+    quiz_box.classList.remove("d-none"); //show quiz box
+    result_box.classList.add("d-none"); //hide result box
     que_count = 0;
     que_numb = 1;
     userScore = 0;
@@ -127,21 +128,21 @@ function optionSelected(answer){
 }
 
 function showResult(){
-    info_box.classList.remove("activeInfo"); //hide info box
-    quiz_box.classList.remove("activeQuiz"); //hide quiz box
-    result_box.classList.add("activeResult"); //show result box
+    info_box.classList.add("d-none"); //hide info box
+    quiz_box.classList.add("d-none"); //hide quiz box
+    result_box.classList.remove("d-none"); //show result box
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 3){ // if user scored more than 3
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>and congrats! 🎉, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>and congrats! 🎉, You got <span>'+ userScore +'</span> out of <pspan>'+ questions.length +'</span></span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
     else if(userScore > 1){ // if user scored more than 1
-        let scoreTag = '<span>and nice 😎, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>and nice 😎, You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></span>';
         scoreText.innerHTML = scoreTag;
     }
     else{ // if user scored less than 1
-        let scoreTag = '<span>and sorry 😐, You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>and sorry 😐, You got only <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></span>';
         scoreText.innerHTML = scoreTag;
     }
 }
@@ -152,6 +153,6 @@ function scoreCalculator(time){
 
 function queCounter(index){
     //creating a new span tag and passing the question number and total question
-    let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
+    let totalQueCounTag = '<span>'+ index +' of '+ questions.length +' Questions</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
 }
