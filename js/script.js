@@ -1,5 +1,8 @@
+checkUserSession();
+
 //selecting all required elements
-const start_btn = document.querySelector(".start_btn button");
+const home_page = document.querySelector(".home_page");
+const start_btn = document.querySelector(".home_page button");
 const info_box = document.querySelector(".info_box");
 const exit_btn = info_box.querySelector(".buttons .quit");
 const continue_btn = info_box.querySelector(".buttons .restart");
@@ -21,14 +24,14 @@ const shuffled_questions = shuffle(questions);
 
 // if startQuiz button clicked
 start_btn.onclick = ()=>{
-    start_btn.classList.add("d-none"); //hide start button
+    home_page.classList.add("d-none"); //hide start button
     info_box.classList.remove("d-none"); //show info box
 }
 
 // if exitQuiz button clicked
 exit_btn.onclick = ()=>{
     info_box.classList.add("d-none"); //hide info box
-    start_btn.classList.remove("d-none"); //hide start button
+    home_page.classList.remove("d-none"); //hide start button
 }
 
 // if continueQuiz button clicked
@@ -170,4 +173,24 @@ function queCounter(index){
     //creating a new span tag and passing the question number and total question
     let totalQueCounTag = '<span>'+ index +' из '+ shuffled_questions.length +' Вопросов</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
+}
+
+function checkUserSession(){
+    //Is the user authenticated?
+    if (sessionStorage.getItem('AuthenticationState') === null) {
+        window.open("login.html", "_self");
+    }
+    //Is their authentication token still valid?
+    else if (new Date() > new Date(sessionStorage.getItem('AuthenticationExpires'))) {
+        window.open("login.html", "_self");
+    }
+    else {
+        
+    }
+}
+
+function logoutFromSystem(){
+    sessionStorage.removeItem("AuthenticationState");
+    sessionStorage.removeItem("AuthenticationExpires");
+    window.open("login.html", "_self");
 }

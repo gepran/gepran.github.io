@@ -17,13 +17,66 @@
 integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </head>
 <body>
+	
+	<nav class="navbar navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<i class="fa-solid fa-house"></i>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="logoutFromSystem()">Log Out</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
 	<div class="container-fluid">
 		<div class="row justify-content-center">
 			<div class="col-md-6">
 
-				<!-- start Quiz button -->
-				<div class="start_btn">
-					<button type="button" class="btn btn-warning btn-lg">Начать Тест</button>
+				<div class="home_page mt-5">
+					<div class="card mb-3 geo_history">
+						<div class="card-body">
+							<h5 class="card-title">Истории</h5>
+							<p class="card-text">Общее количество вопросов - <span class="text-success">204</span></p>
+							<button type="button" class="btn btn-success">Начать Тест</button>
+						</div>
+					</div>
+
+					<div class="card mb-3 geo_grammar">
+						<div class="card-body">
+							<h5 class="card-title">Грамматика</h5>
+							<p class="card-text">Общее количество вопросов - <span class="text-success">204</span></p>
+							<button type="button" class="btn btn-danger">Начать Тест</button>
+						</div>
+					</div>
+
+					<div class="card mb-3 geo_constitution">
+						<div class="card-body">
+							<h5 class="card-title">Конституция</h5>
+							<p class="card-text">Общее количество вопросов - <span class="text-success">204</span></p>
+							<button type="button" class="btn btn-warning">Начать Тест</button>
+						</div>
+					</div>
 				</div>
 
 				<!-- Info Box -->
