@@ -20,7 +20,7 @@ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbs
 	
 	<nav class="navbar navbar-dark bg-dark">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#">
+			<a class="navbar-brand go_home" href="#" onclick="goToHomePage()">
 				<i class="fa-solid fa-house"></i>
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
@@ -53,12 +53,12 @@ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbs
 		<div class="row justify-content-center">
 			<div class="col-md-6">
 
-				<div class="home_page mt-5">
+				<div class="home_page mt-3">
 					<div class="card mb-3 geo_history">
 						<div class="card-body">
 							<h5 class="card-title">Истории</h5>
 							<p class="card-text">Общее количество вопросов - <span class="text-success">204</span></p>
-							<button type="button" class="btn btn-success">Начать Тест</button>
+							<button type="button" class="btn btn-success" onclick="continue_btn()">Начать Тест</button>
 						</div>
 					</div>
 
@@ -77,23 +77,18 @@ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbs
 							<button type="button" class="btn btn-warning">Начать Тест</button>
 						</div>
 					</div>
-				</div>
 
-				<!-- Info Box -->
-				<div class="card info_box d-none mt-5">
-					<h5 class="card-header info-title">Некоторые правила этого теста</h5>
-					<div class="card-body info-list">
-						<div class="info">1. Как только вы выберете свой ответ, его нельзя будет отменить..</div>
-						<div class="info">2. Вы не можете выйти время Теста.</div>
-					</div>
-					<div class="card-footer buttons d-flex justify-content-between">
-						<button type="button" class="btn btn-outline-secondary quit">Выйти из теста</button>
-						<button type="button" class="btn btn-success restart">Продолжать</button>
+					<div class="card mt-5">
+						<h5 class="card-header info-title">Некоторые правила этого теста</h5>
+						<div class="card-body info-list">
+							<div class="info">1. Как только вы выберете свой ответ, его нельзя будет отменить..</div>
+							<div class="info">2. Вы не можете выйти время Теста.</div>
+						</div>
 					</div>
 				</div>
 
 				<!-- Quiz Box -->
-				<div class="card quiz_box d-none mt-5">
+				<div class="card quiz_box d-none mt-3">
 					<header class="card-header">
 						<h5 class="card-title">ისტორია</h5>
 						<div class="timer score">
@@ -149,6 +144,16 @@ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbs
 			</div>
 		</div>
 	</div>
+
+	<footer class="footer">
+		<div class="container text-center">
+		  <a href="https://t.me/gepran" target="_blank" class="link-telegram">
+			<span><i class="fa-brands fa-telegram"></i></span>
+			<span>gepran</span>
+		</a>
+		</div>
+	</footer>
+	  
     <!-- Inside this JavaScript file I've inserted Questions and Options only -->
     <script src="js/questions.js"></script>
 

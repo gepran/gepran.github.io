@@ -2,10 +2,7 @@ checkUserSession();
 
 //selecting all required elements
 const home_page = document.querySelector(".home_page");
-const start_btn = document.querySelector(".home_page button");
 const info_box = document.querySelector(".info_box");
-const exit_btn = info_box.querySelector(".buttons .quit");
-const continue_btn = info_box.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
@@ -22,21 +19,14 @@ function shuffle(a) {
 
 const shuffled_questions = shuffle(questions);
 
-// if startQuiz button clicked
-start_btn.onclick = ()=>{
-    home_page.classList.add("d-none"); //hide start button
-    info_box.classList.remove("d-none"); //show info box
-}
-
-// if exitQuiz button clicked
-exit_btn.onclick = ()=>{
-    info_box.classList.add("d-none"); //hide info box
+function goToHomePage(){
     home_page.classList.remove("d-none"); //hide start button
+    quiz_box.classList.add("d-none"); //hide info box
+    result_box.classList.add("d-none"); //hide info box
 }
 
-// if continueQuiz button clicked
-continue_btn.onclick = ()=>{
-    info_box.classList.add("d-none"); //hide info box
+function continue_btn(){
+    home_page.classList.add("d-none"); //hide start button
     quiz_box.classList.remove("d-none"); //show quiz box
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
@@ -144,7 +134,6 @@ function optionSelected(answer){
 }
 
 function showResult(){
-    info_box.classList.add("d-none"); //hide info box
     quiz_box.classList.add("d-none"); //hide quiz box
     result_box.classList.remove("d-none"); //show result box
     const scoreText = result_box.querySelector(".score_text");
