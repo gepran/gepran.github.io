@@ -29,24 +29,9 @@ body{
     transform: translate(-50%, -50%) scale(1);
 }
 
-.info_box .info-list .info{
-    margin: 5px 0;
-    font-size: 17px;
-}
-
-.info_box .info-list .info span{
-    font-weight: 600;
-    color: #007bff;
-}
-
 .quiz_box header{
     display: flex;
     justify-content: space-between;
-}
-
-.quiz_box header .title{
-    font-size: 20px;
-    font-weight: 600;
 }
 
 .quiz_box header .timer{
@@ -61,18 +46,16 @@ body{
     font-weight: 400;
     font-size: 17px;
     user-select: none;
+    padding: 0 5px;
 }
 
 .quiz_box header .timer .timer_sec{
-    font-size: 18px;
-    font-weight: 500;
-    height: 30px;
     color: #fff;
     border-radius: 5px;
-    line-height: 30px;
     background: #343a40;
     border: 1px solid #343a40;
     user-select: none;
+    padding: 0 5px;
 }
 
 section{
@@ -90,7 +73,6 @@ section .option_list .option{
     border: 1px solid #84c5fe;
     border-radius: 5px;
     padding: 8px 15px;
-    font-size: 17px;
     margin-bottom: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -126,7 +108,7 @@ section .option_list .option.disabled{
 
 section .option_list .option .icon{
     height: 26px;
-    width: 26px;
+    min-width: 26px;
     border: 2px solid transparent;
     border-radius: 50%;
     font-size: 13px;
@@ -176,9 +158,9 @@ footer button.show{
     opacity: 1;
     pointer-events: auto;
 }
-
+.result_box{
+    background-color: #cbdbe6 !important;
+}
 .result_box .icon{
-    font-size: 100px;
-    color: #007bff;
-    margin-bottom: 10px;
+    color: #eac243;
 }

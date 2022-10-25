@@ -8,6 +8,17 @@ const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
 const scoreCounter = document.querySelector(".score .score_counter");
 
+
+function shuffle(a) {
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+
+const shuffled_questions = shuffle(questions);
+
 // if startQuiz button clicked
 start_btn.onclick = ()=>{
     start_btn.classList.add("d-none"); //hide start button
@@ -60,7 +71,7 @@ const bottom_ques_counter = document.querySelector("footer .total_que");
 
 // if Next Que button clicked
 next_btn.onclick = ()=>{
-    if(que_count < questions.length - 1){ //if question count is less than total question length
+    if(que_count < shuffled_questions.length - 1){ //if question count is less than total question length
         que_count++; //increment the que_count value
         que_numb++; //increment the que_numb value
         showQuetions(que_count); //calling showQestions function
@@ -72,17 +83,19 @@ next_btn.onclick = ()=>{
     }
 }
 
-// getting questions and options from array
+// getting shuffled_questions and options from array
 function showQuetions(index){
     const que_text = document.querySelector(".que_text");
+    const rus_que_text = document.querySelector(".rus_que_text");
 
     //creating a new span and div tag for question and option and passing the value using array index
-    let que_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
-    let option_tag = '<div class="option"><span>'+ questions[index].options[0] +'</span></div>'
-    + '<div class="option"><span>'+ questions[index].options[1] +'</span></div>'
-    + '<div class="option"><span>'+ questions[index].options[2] +'</span></div>'
-    + '<div class="option"><span>'+ questions[index].options[3] +'</span></div>';
+    let que_tag = '<span>'+ shuffled_questions[index].numb + ". " + shuffled_questions[index].question +'</span>';
+    let option_tag = '<div class="option"><span>'+ shuffled_questions[index].options[0] +'</span></div>'
+    + '<div class="option"><span>'+ shuffled_questions[index].options[1] +'</span></div>'
+    + '<div class="option"><span>'+ shuffled_questions[index].options[2] +'</span></div>'
+    + '<div class="option"><span>'+ shuffled_questions[index].options[3] +'</span></div>';
     que_text.innerHTML = que_tag; //adding new span tag inside que_tag
+    rus_que_text.innerHTML = shuffled_questions[index].question_rus; //adding new span tag inside que_tag
     option_list.innerHTML = option_tag; //adding new div tag inside option_tag
     
     const option = option_list.querySelectorAll(".option");
@@ -93,13 +106,13 @@ function showQuetions(index){
     }
 }
 // creating the new div tags which for icons
-let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
-let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
+let tickIconTag = '<div class="icon tick text-center"><i class="fas fa-check"></i></div>';
+let crossIconTag = '<div class="icon cross text-center"><i class="fas fa-times"></i></div>';
 
 //if user clicked on option
 function optionSelected(answer){
     let userAns = answer.textContent; //getting user selected option
-    let correcAns = questions[que_count].answer; //getting correct answer from array
+    let correcAns = shuffled_questions[que_count].answer; //getting correct answer from array
     const allOptions = option_list.children.length; //getting all option items
     
     if(userAns == correcAns){ //if user selected option is equal to array's correct answer
@@ -133,26 +146,28 @@ function showResult(){
     result_box.classList.remove("d-none"); //show result box
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 3){ // if user scored more than 3
-        //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>and congrats! 🎉, You got <span>'+ userScore +'</span> out of <pspan>'+ questions.length +'</span></span>';
-        scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
+        let scoreTag = `<p class="mb-0">Вы пытаетесь ответить на <span class="text-primary fw-bolder">${shuffled_questions.length} вопросов</span></p>
+        <p>и из них <span class="text-success fw-bolder">${userScore} ответов</span> верны.</p>`;
+        scoreText.innerHTML = scoreTag;
     }
     else if(userScore > 1){ // if user scored more than 1
-        let scoreTag = '<span>and nice 😎, You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></span>';
+        let scoreTag = `<p class="mb-0">Вы пытаетесь ответить на <span class="text-primary fw-bolder">${shuffled_questions.length} вопросов</span></p>
+        <p>и из них <span class="text-success fw-bolder">${userScore} ответов</span> верны.</p>`;
         scoreText.innerHTML = scoreTag;
     }
     else{ // if user scored less than 1
-        let scoreTag = '<span>and sorry 😐, You got only <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></span>';
+        let scoreTag = `<p class="mb-0">Вы пытаетесь ответить на <span class="text-primary fw-bolder">${shuffled_questions.length} вопросов</span></p>
+        <p>и из них <span class="text-success fw-bolder">${userScore} ответов</span> верны.</p>`;
         scoreText.innerHTML = scoreTag;
     }
 }
 
 function scoreCalculator(time){
-    scoreCounter.innerHTML = userScore +' из'+ questions.length;
+    scoreCounter.innerHTML = userScore +' из '+ shuffled_questions.length;
 }
 
 function queCounter(index){
     //creating a new span tag and passing the question number and total question
-    let totalQueCounTag = '<span>'+ index +' of '+ questions.length +' Questions</span>';
+    let totalQueCounTag = '<span>'+ index +' из '+ shuffled_questions.length +' Вопросов</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
 }
