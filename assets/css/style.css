@@ -7,7 +7,7 @@ html {
 }
 body{
     background: #007bff;
-    margin-bottom: 60px;
+    margin-bottom: 70px !important;
 }
 
 ::selection{
