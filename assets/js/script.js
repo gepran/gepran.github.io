@@ -17,7 +17,7 @@ let selected_questions = [];
 
 function shuffleQuestions(){
     h_questions = shuffle(HISTORY_QUESTIONS);
-    g_questions = shuffle(CONSTITUTION_QUESTIONS);
+    g_questions = shuffle(GRAMMAR_QUESTIONS);
     c_questions = shuffle(CONSTITUTION_QUESTIONS);
 }
 
@@ -29,11 +29,22 @@ function goToHomePage(){
 
 function startTests(question_qty, subject){
     home_page.classList.add("d-none"); //hide start button
+    quiz_box.querySelector(".card-title").innerText = setQuizTitle(subject);
     quiz_box.classList.remove("d-none"); //show quiz box
     selected_questions = pickQuestionsList(question_qty, subject);
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
     scoreCalculator(); //calling Score function
+}
+
+function setQuizTitle(subject){
+    if(subject === 'HISTORY'){
+        return "Истории";
+    } else if (subject === 'GRAMMAR'){
+        return "Грамматика";
+    } else if (subject === 'CONSTITUTON'){
+        return "Конституция";
+    }
 }
 
 function pickQuestionsList(question_qty, subject){
