@@ -35,22 +35,32 @@ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbs
 					<div class="offcanvas-body">
 						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 							<li class="nav-item">
-								<a class="nav-link" href="javascript:;" onclick="startTests(30, 'HISTORY')">Истории (30 Вопросов)</a>
+								<a class="nav-link" href="javascript:;" onclick="startTests(30, 'HISTORY')"
+								data-bs-dismiss="offcanvas" aria-label="Close">Истории (30 Вопросов)</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="javascript:;" onclick="startTests(200, 'HISTORY')">Истории (202 Вопросов)</a>
+								<a class="nav-link" href="javascript:;" onclick="startTests(200, 'HISTORY')"
+								data-bs-dismiss="offcanvas" aria-label="Close">Истории (202 Вопросов)</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="javascript:;" onclick="startTests(30, 'GRAMMAR')">Грамматика (30 Вопросов)</a>
+								<a class="nav-link" href="javascript:;" onclick="startTests(30, 'GRAMMAR')"
+								data-bs-dismiss="offcanvas" aria-label="Close">Грамматика (30 Вопросов)</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="javascript:;" onclick="startTests(200, 'GRAMMAR')">Грамматика (209 Вопросов)</a>
+								<a class="nav-link" href="javascript:;" onclick="startTests(200, 'GRAMMAR')"
+								data-bs-dismiss="offcanvas" aria-label="Close">Грамматика (209 Вопросов)</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="javascript:;" onclick="startTests(30, 'CONSTITUTON')">Конституция (30 Вопросов)</a>
+								<a class="nav-link" href="javascript:;" onclick="startTests(30, 'CONSTITUTON')"
+								data-bs-dismiss="offcanvas" aria-label="Close">Конституция (30 Вопросов)</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="javascript:;" onclick="startTests(200, 'CONSTITUTON')">Конституция (200 Вопросов)</a>
+								<a class="nav-link" href="javascript:;" onclick="startTests(200, 'CONSTITUTON')"
+								data-bs-dismiss="offcanvas" aria-label="Close">Конституция (200 Вопросов)</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="javascript:;" onclick="startTests(30, 'MIXED')"
+								data-bs-dismiss="offcanvas" aria-label="Close">Смешанные Вопросы (30 Вопросов)</a>
 							</li>
 
 							<li class="nav-item">
@@ -71,7 +81,7 @@ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbs
 					<div class="card mb-3 geo_history">
 						<div class="card-body">
 							<h5 class="card-title text-success">Истории</h5>
-							<p class="card-text">Общее количество вопросов - <span class="text-success">204</span></p>
+							<p class="card-text">Общее количество вопросов - <span class="text-success">202</span></p>
 							<div class="d-flex justify-content-between">
 								<button type="button" class="btn-sm btn btn-outline-success" onclick="startTests(30, 'HISTORY')">30 Вопросов</button>
 								<button type="button" class="btn-sm btn btn-outline-success" onclick="startTests(202, 'HISTORY')">202 Вопросов</button>
@@ -82,7 +92,7 @@ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbs
 					<div class="card mb-3 geo_grammar">
 						<div class="card-body">
 							<h5 class="card-title text-danger">Грамматика</h5>
-							<p class="card-text">Общее количество вопросов - <span class="text-success">204</span></p>
+							<p class="card-text">Общее количество вопросов - <span class="text-success">209</span></p>
 							<div class="d-flex justify-content-between">
 								<button type="button" class="btn-sm btn btn-outline-danger" onclick="startTests(30, 'GRAMMAR')">30 Вопросов</button>
 								<button type="button" class="btn-sm btn btn-outline-danger" onclick="startTests(209, 'GRAMMAR')">209 Вопросов</button>
@@ -93,10 +103,21 @@ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbs
 					<div class="card mb-3 geo_constitution">
 						<div class="card-body">
 							<h5 class="card-title text-warning">Конституция</h5>
-							<p class="card-text">Общее количество вопросов - <span class="text-success">204</span></p>
+							<p class="card-text">Общее количество вопросов - <span class="text-success">200</span></p>
 							<div class="d-flex justify-content-between">
 								<button type="button" class="btn-sm btn btn-outline-warning" onclick="startTests(30, 'CONSTITUTON')">30 Вопросов</button>
 								<button type="button" class="btn-sm btn btn-outline-warning" onclick="startTests(200, 'CONSTITUTON')">200 Вопросов</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="card mb-3 geo_constitution">
+						<div class="card-body">
+							<h5 class="card-title text-primary">Смешанные Вопросы</h5>
+							<p class="card-text mb-0">Истории, Грамматики и Конституции</p>
+							<p class="card-text">Количество вопросов - <span class="text-success">30</span></p>
+							<div class="d-flex justify-content-between">
+								<button type="button" class="btn-sm btn btn-outline-primary" onclick="startTests(30, 'MIXED')">Начать Тест</button>
 							</div>
 						</div>
 					</div>

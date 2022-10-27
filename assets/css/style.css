@@ -82,6 +82,15 @@ section .option_list .option{
     transition: all 0.3s ease;
     display: flex;
     justify-content: space-between;
+
+    /* background: #cddce7;
+    border-radius: 30px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between; */
 }
 
 section .option_list .option:last-child{

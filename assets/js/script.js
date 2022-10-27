@@ -44,6 +44,8 @@ function setQuizTitle(subject){
         return "Грамматика";
     } else if (subject === 'CONSTITUTON'){
         return "Конституция";
+    } else if (subject === 'MIXED'){
+        return "Смешанные Вопросы";
     }
 }
 
@@ -56,6 +58,13 @@ function pickQuestionsList(question_qty, subject){
         return g_questions.slice(0, question_qty);
     } else if (subject === 'CONSTITUTON'){
         return c_questions.slice(0, question_qty);
+    } else if (subject === 'MIXED'){
+        let h_q = h_questions.slice(0, 10);
+        let g_q = g_questions.slice(0, 10);
+        let c_q = c_questions.slice(0, 10);
+        let mixed_questions = [...h_q, ...g_q, ...c_q];
+
+        return shuffle(mixed_questions);
     }
 }
 
