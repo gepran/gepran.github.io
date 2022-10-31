@@ -1,11 +1,13 @@
-/* importing google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
+@font-face {
+    font-family: "BPGMrgvlovaniCaps";
+    src: url(../fonts/bpg_mrgvlovani_caps_2010.ttf);
+}
 html {
     position: relative;
     min-height: 100%;
 }
 body{
+    font-family: "BPGMrgvlovaniCaps" !important;
     background: #007bff;
     margin-bottom: 70px !important;
 }
