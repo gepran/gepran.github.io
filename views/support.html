@@ -25,6 +25,24 @@
 
 	gtag('config', 'G-GJ74WJK208');
 	</script>
+
+    <script>
+        function copyToClipboard(text) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand("copy");
+            textArea.remove();
+
+            const message = document.getElementById("message");
+            message.textContent = "Банковский шьет скопирован";
+            message.style.display = "block";
+            setTimeout(function() {
+                message.style.display = "none";
+            }, 2000);
+        }
+	</script>
 </head>
 <body>
 	
@@ -46,13 +64,19 @@
 
                     <h3 class="text-center">Поддержите наш сайт!</h3>
                     <p class="text-center">Ваша донация позволит нам продолжать развивать и улучшать наш сайт, обеспечивая вам лучший опыт пользования. Все донации пойдут на улучшение качества контента, техническую поддержку и повышение эффективности сайта. Каждая донация важна для нас и мы ценим вашу поддержку! Спасибо за вашу помощь в развитии нашего сайта."</p>
+
+                    <div id="message" class="alert alert-success" role="alert" style="display: none;"></div>
+
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-2">
                                 <img src="/assets/img/banks/tbc_logo.png" width="60" class="img-fluid rounded-start" alt="...">
                             </div>
-                            <div class="col-8 mt-3">
-                                <h5 class="card-title">GE18TB7361245164300005</h5> 
+                            <div class="col-10 mt-3">
+                                <h5 class="card-title" onclick="copyToClipboard('GE18TB7361245164300005')">
+                                    <span>GE18TB7361245164300005</span>
+                                    <i class="fa-regular fa-copy text-end "></i>
+                                </h5>                            
                             </div>
                         </div>
                     </div>
@@ -62,8 +86,11 @@
                             <div class="col-2">
                                 <img src="/assets/img/banks/bog_logo.png" width="60" class="img-fluid rounded-start" alt="...">
                             </div>
-                            <div class="col-8 mt-3">
-                                <h5 class="card-title">GE17BG0000000131452770</h5>                            
+                            <div class="col-10 mt-3">
+                                <h5 class="card-title" onclick="copyToClipboard('GE17BG0000000131452770')">
+                                    <span>GE17BG0000000131452770</span>
+                                    <i class="fa-regular fa-copy text-end "></i>
+                                </h5>                            
                             </div>
                         </div>
                     </div>
@@ -76,7 +103,10 @@
                             <div class="col-8 mt-3">
                                 <a href="https://www.paypal.me/gepran" target="_blank" 
                                 style="color: black;"> 
-                                    <h5 class="card-title">Донация</h5>          
+                                    <h5 class="card-title">
+                                        <span>Донация</span>
+                                        <i class="fa-solid fa-link"></i>
+                                    </h5>          
                                 </a>                            
                             </div>
                         </div>
