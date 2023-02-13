@@ -196,3 +196,6 @@ footer button.show{
     color: #1a94e3;
     text-decoration: none;
 }
+.support-btn a{
+    text-decoration: none;
+}

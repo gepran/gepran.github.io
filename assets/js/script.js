@@ -1,4 +1,4 @@
-checkUserSession();
+//checkUserSession();
 
 //selecting all required elements
 const home_page = document.querySelector(".home_page");
