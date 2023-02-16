@@ -4,7 +4,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 1,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მე ცუდად ვსაუბრობ ქართულად",
         "options": [
             "მე ცუდად ვსაუბრობ ქართული",
             "მე ცუდად ვსაუბრობ ქართულით",
@@ -16,7 +16,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 2,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მე ვხატავ სურათს",
         "options": [
             "მე ვხატავ სურათს",
             "მე ვხატავ სურათმ",
@@ -28,7 +28,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 3,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მე დამიძახა ამხანაგმა",
         "options": [
             "მე დამიძახა ამხანაგს",
             "მე დამიძახა ამხანაგმა",
@@ -40,7 +40,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 4,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "შენ ხარ ექიმი",
         "options": [
             "შენ ხარ ექიმმა",
             "შენ ხარ ექიმით",
@@ -52,7 +52,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 5,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "თქვენ უყურებთ ფეხბურთს",
         "options": [
             "თქვენ უყურებთ ფეხბურთმა",
             "თქვენ უყურებთ ფეხბურთს",
@@ -64,7 +64,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 6,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "საფულე დევს ჩანთაში",
         "options": [
             "საფულე დევს ჩანთასავით",
             "საფულე დევს ჩანთიდან",
@@ -76,7 +76,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 7,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ეზოში ავი ძაღლია",
         "options": [
             "ეზო ავი ძაღლია",
             "ეზოში ავი ძაღლია",
@@ -88,7 +88,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 8,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "გიორგი სკოლაში სწავლობს",
         "options": [
             "გიორგი სკოლა სწავლობს",
             "გიორგი სკოლით სწავლობს",
@@ -100,7 +100,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 9,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "კოკა-კოლა მაცივარში დევს",
         "options": [
             "კოკა-კოლა მაცივრიდან დევს",
             "კოკა-კოლა მაცივარი დევს",
@@ -112,7 +112,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 10,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ბავშვი წყალში ჩავარდა",
         "options": [
             "ბავშვი წყალში ჩავარდა",
             "ბავშვი წყალზე ჩავარდა",
@@ -124,7 +124,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 11,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ის მიდის კონცერტზე",
         "options": [
             "ის მიდის კონცერტთან",
             "ის მიდის კონცერტივით",
@@ -136,7 +136,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 12,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ვაშლი დევს მაგიდაზე",
         "options": [
             "ვაშლი დევს მაგიდა",
             "ვაშლი დევს მაგიდით",
@@ -148,7 +148,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 13,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ბიჭი ფეხზე იცვამს წინდას",
         "options": [
             "ბიჭი ფეხზე იცვამს წინდას",
             "ბიჭი ფეხისკენ იცვამს წინდას",
@@ -160,7 +160,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 14,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "არმსტრონგმა მთვარეზე დადგა ფეხი",
         "options": [
             "არმსტრონგმა მთვარეში დადგა ფეხი",
             "არმსტრონგმა მთვარეზე დადგა ფეხი",
@@ -172,7 +172,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 15,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ჩიტი ტოტზე ზის",
         "options": [
             "ჩიტი ტოტი ზის",
             "ჩიტი ტოტიდან ზის",
@@ -184,7 +184,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 16,
         "question": "შემოხაზეთ არასწორი პასუხი: ყვავილები ყვავის:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "სახლის ქვეშ",
         "options": [
             "სახლის ქვეშ",
             "სახლის უკან",
@@ -196,7 +196,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 17,
         "question": "შემოხაზეთ სწორი პასუხი: ბოსტანი გაშენებულია...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "შენობის გვერდზე",
         "options": [
             "შენობაზე",
             "შენობის გვერდზე",
@@ -208,7 +208,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 18,
         "question": "შემოხაზეთ სწორი პასუხი: ანა დგას...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "სკამზე",
         "options": [
             "სკამიდან",
             "სკამის ირგვლივ",
@@ -220,7 +220,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 19,
         "question": "შემოხაზეთ სწორი პასუხი: ის ავიდა ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "კიბის საფეხურზე",
         "options": [
             "კიბის საფეხურზე",
             "კიბის ირგვლივ",
@@ -232,7 +232,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 20,
         "question": "შემოხაზეთ სწორი პასუხი: გავემართე ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ცირკისკენ",
         "options": [
             "ცირკისგან",
             "ცირკისთვის",
@@ -244,7 +244,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 21,
         "question": "შემოხაზეთ სწორი პასუხი: მე ვცხოვრობ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ჭავჭავაძის გამზირზე",
         "options": [
             "ჭავჭავაძის გამზირისგან",
             "ჭავჭავაძის გამზირში",
@@ -256,7 +256,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 22,
         "question": "შემოხაზეთ სწორი პასუხი: აბაშიძის ქუჩიდან გადავედი .....",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "წერეთლის ქუჩაზე",
         "options": [
             "წერეთლის ქუჩაში",
             "წერეთლის ქუჩაზე",
@@ -268,7 +268,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 23,
         "question": "შემოხაზეთ სწორი პასუხი: ის დასახლდა ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "თბილისში",
         "options": [
             "თბილისიდან",
             "თბილისზე",
@@ -280,7 +280,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 24,
         "question": "შემოხაზეთ სწორი პასუხი: სასწრაფო დახმარება გამოიძახეს ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "რუსთაველის გამზირზე",
         "options": [
             "რუსთაველის გამზირზე",
             "რუსთაველის გამზირში",
@@ -292,7 +292,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 25,
         "question": "შემოხაზეთ სწორი პასუხი: მე დავიბადე ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "თბილისში",
         "options": [
             "თბილისისკენ",
             "თბილისიდან",
@@ -304,7 +304,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 26,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მოგზაური გამოვიდა სასტუმროდან",
         "options": [
             "მოგზაური გამოვიდა სასტუმროზე",
             "მოგზაური გამოვიდა სასტუმროსგან",
@@ -316,7 +316,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 27,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "დათო წამოვიდა მეგობრისგან",
         "options": [
             "დათო წამოვიდა მეგობარზე",
             "დათო წამოვიდა მეგობრისგან",
@@ -328,7 +328,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 28,
         "question": "შემოხაზეთ არასწორი პასუხი: ის ბრუნდება ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მეგობარი",
         "options": [
             "მეგობრისგან",
             "მეგობრისკენ",
@@ -340,7 +340,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 29,
         "question": "შემოხაზეთ არასწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მსახიობი წამოვიდა თეატრისგან",
         "options": [
             "მსახიობი წამოვიდა თეატრისგან",
             "მსახიობი წამოვიდა თეატრისკენ",
@@ -352,7 +352,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 30,
         "question": "შემოხაზეთ სწორი პასუხი: შენ თეატრში...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მიდიხარ?",
         "options": [
             "იყავით?",
             "მიდის?",
@@ -364,7 +364,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 31,
         "question": "შემოხაზეთ სწორი პასუხი: თქვენ სამსახურში ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "იყავით?",
         "options": [
             "იყავით?",
             "მიდის?",
@@ -376,7 +376,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 32,
         "question": "შემოხაზეთ სწორი პასუხი: ისინი ბაზარში ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "იყვნენ?",
         "options": [
             "იყო?",
             "იყვნენ?",
@@ -388,7 +388,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 33,
         "question": "შემოხაზეთ სწორი პასუხი: ჩვენ თამაშს ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მოვიგებთ?",
         "options": [
             "მოიგებ?",
             "მოიგებთ?",
@@ -400,7 +400,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 34,
         "question": "შემოხაზეთ სწორი პასუხი: ვალაგებთ .....",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ჩვენ",
         "options": [
             "ისინი",
             "ჩვენ",
@@ -412,7 +412,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 35,
         "question": "შემოხაზეთ სწორი პასუხი: მიემგზავრები .....",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "შენ",
         "options": [
             "მე",
             "ის",
@@ -424,7 +424,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 36,
         "question": "შემოხაზეთ სწორი პასუხი: „ალბათ, სახლში იქნებიან“ ნიშნავს:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "არ ვიცი, სახლში იქნებიან თუ არა",
         "options": [
             "არ ვიცი, სახლში იქნებიან თუ არა",
             "ვიცი, რომ სახლში იქნებიან",
@@ -436,7 +436,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 37,
         "question": "შემოხაზეთ სწორი პასუხი:„არ ვიცი, გაიგე თუ არა” - გულისხმობს:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ალბათ გაიგე",
         "options": [
             "ვიცი, რომ ვერ გაიგე",
             "ალბათ გაიგე",
@@ -448,7 +448,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 38,
         "question": "შემოხაზეთ სწორი პასუხი: „ალბათ დავხატავ“ ნიშნავს:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "შეიძლება დავხატო",
         "options": [
             "აუცილებლად დავხატავ",
             "არ დავხატავ",
@@ -460,7 +460,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 39,
         "question": "შემოხაზეთ სწორი პასუხი: „შეიძლება ვიყიდო“ გულისხმობს:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ალბათ ვიყიდი",
         "options": [
             "ალბათ ვიყიდი",
             "რა თქმა უნდა, ვიყიდი",
@@ -472,7 +472,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 40,
         "question": "შემოხაზეთ არასწორი პასუხი: ხვალ წვიმა წამოვა? ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "რატომ",
         "options": [
             "კი",
             "რატომ",
@@ -484,7 +484,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 41,
         "question": "შემოხაზეთ სწორი პასუხი: „დიახ“ ნიშნავს:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ვეთანხმები",
         "options": [
             "უარვყოფ",
             "ვეთანხმები",
@@ -496,7 +496,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 42,
         "question": "შემოხაზეთ სწორი პასუხი: შეკითხვაზე - „სასტუმროში გავჩერდეთ?“ - პასუხია:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "კი",
         "options": [
             "როგორ?",
             "საით?",
@@ -508,7 +508,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 43,
         "question": "შემოხაზეთ არასწორი პასუხი: მისამართი იცით?",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "უკვე",
         "options": [
             "კი",
             "დიახ",
@@ -520,7 +520,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 44,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მე ვარ ირაკლი",
         "options": [
             "თქვენ ვართ ირაკლი",
             "მე ვარ ირაკლი",
@@ -532,7 +532,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 45,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "შენ სანდრო გქვია?",
         "options": [
             "შენ სანდრო მქვია?",
             "შენ სანდრო ჰქვია?",
@@ -544,7 +544,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 46,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "იმას ჰქვია ჯიმი",
         "options": [
             "იმას არის ჯიმი",
             "იმას ჰქვია ჯიმი",
@@ -556,7 +556,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 47,
         "question": "შემოხაზეთ არასწორი პასუხი: ჩამონათვალში სხვა მნიშვნელობისაა",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "გამარჯობა",
         "options": [
             "გამარჯობა",
             "კარგად იყავი",
@@ -568,7 +568,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 48,
         "question": "შემოხაზეთ არასწორი პასუხი: „ნახვამდის“ შეიძლება ნიშნავდეს:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "დილა მშვიდობის",
         "options": [
             "შეხვედრამდე",
             "კარგად იყავი",
@@ -580,7 +580,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 49,
         "question": "შემოხაზეთ არასწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "დილა მშვიდობის, ნახვამდის",
         "options": [
             "დილა მშვიდობის, ნახვამდის",
             "წავედი სამსახურში, ნახვამდის",
@@ -592,7 +592,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 50,
         "question": "შემოხაზეთ სწორი პასუხი: ეს ბილეთი არის:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "თვითმფრინავის",
         "options": [
             "თეატრში",
             "თვითმფრინავის",
@@ -604,7 +604,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 51,
         "question": "შემოხაზეთ სწორი პასუხი:ამ გაზეთს ვაძლევთ ნინოს. ეს გაზეთი .....",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ნინოსთვისაა",
         "options": [
             "ნინოდანაა",
             "ნინოსგანაა",
@@ -616,7 +616,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 52,
         "question": "შემოხაზეთ სწორი პასუხი: ამ ტილოთი ვწმენდთ მაგიდას. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ეს მაგიდის ტილოა",
         "options": [
             "ეს მაგიდის ტილოა",
             "ეს მაგიდა ტილოა",
@@ -628,7 +628,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 53,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "პატარა გოგონა დარბის",
         "options": [
             "პატარა გოგონამ დარბის",
             "პატარა გოგონა დარბის",
@@ -640,7 +640,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 54,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ეს მაღალი მოსწავლის ჩანთაა",
         "options": [
             "ეს მაღალი მოსწავლეს ჩანთაა",
             "ეს მაღალ მოსწავლეს ჩანთაა",
@@ -652,7 +652,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 55,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ლამაზი გოგო კითხულობს",
         "options": [
             "ლამაზი გოგომ კითხულობს",
             "ლამაზი გოგო კითხულობს",
@@ -664,7 +664,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 56,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "დიდი მდინარე ჩამოდის",
         "options": [
             "დიდი მდინარეს ჩამოდის",
             "დიდმა მდინარე ჩამოდის",
@@ -676,7 +676,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 57,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ის არის ნინო",
         "options": [
             "ის აქვს ნინო",
             "ის უნდა ნინო",
@@ -688,7 +688,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 58,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ის მიწაა",
         "options": [
             "იმან მიწაა",
             "ის მიწაა",
@@ -700,7 +700,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 59,
         "question": "შემოხაზეთ სწორი პასუხი: ვუთითებთ ტბაზე",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "აი, ტბა",
         "options": [
             "აი, ტბა",
             "ვაი, ტბა",
@@ -712,7 +712,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 60,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "შენ ვინ ხარ?",
         "options": [
             "ის ვინ ხარ?",
             "მე ვინ არის?",
@@ -724,7 +724,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 61,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ისინი ვინ არიან?",
         "options": [
             "ისინი ვინ ხარ?",
             "ისინი ვინ არიან?",
@@ -736,7 +736,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 62,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "თქვენ ვინ ხართ?",
         "options": [
             "თქვენ ვინ არიან?",
             "თქვენ ვინ ვარ?",
@@ -748,7 +748,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 63,
         "question": "შემოხაზეთ სწორი პასუხი: მაღალი - დაბალი; ფართო - ?",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ვიწრო",
         "options": [
             "მაღალი",
             "გრძელი",
@@ -760,7 +760,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 64,
         "question": "შემოხაზეთ სწორი პასუხი: მაღალი - დაბალი; გრძელი - ? ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მოკლე",
         "options": [
             "მოკლე",
             "პატარა",
@@ -772,7 +772,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 65,
         "question": "შემოხაზეთ სწორი პასუხი: ბრაზილია დიდი სახელმწიფოა, ბელგია - ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "პატარა",
         "options": [
             "ვიწრო",
             "პატარა",
@@ -784,7 +784,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 66,
         "question": "შემოხაზეთ სწორი პასუხი: ლომი ძლიერი ცხოველია, შველი - ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "სუსტი",
         "options": [
             "სუსტი",
             "მომცრო",
@@ -796,7 +796,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 67,
         "question": "შემოხაზეთ სწორი პასუხი: ორი დღის შემდეგ ანუ:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ზეგ",
         "options": [
             "ხვალ",
             "გუშინ",
@@ -808,7 +808,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 68,
         "question": "შემოხაზეთ სწორი პასუხი: ორი დღის წინ ანუ:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "გუშინწინ",
         "options": [
             "გუშინ",
             "გუშინწინ",
@@ -820,7 +820,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 69,
         "question": "შემოხაზეთ სწორი პასუხი:ორი დღის წინ გაკეთებული სადილი არის:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "გუშინწინდელი",
         "options": [
             "ზეგინდელი",
             "გუშინდელი",
@@ -832,7 +832,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 70,
         "question": "შემოხაზეთ სწორი პასუხი: სოფელში მაქვს ........... და ბაღი. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "სახლი",
         "options": [
             "სახლი",
             "სახლში",
@@ -844,7 +844,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 71,
         "question": "შემოხაზეთ სწორი პასუხი: სახლში გავაკეთე .... და მურაბა. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "წვენი",
         "options": [
             "წვენმა",
             "წვენს",
@@ -856,7 +856,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 72,
         "question": "შემოხაზეთ სწორი პასუხი: მოვხარშე .... და ატმის კომპოტი. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ვაშლის",
         "options": [
             "ვაშლით",
             "ვაშლის",
@@ -868,7 +868,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 73,
         "question": "შემოხაზეთ სწორი პასუხი: 2019 ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ორი ათას ცხრამეტი",
         "options": [
             "ოცდაცხრა",
             "ორი ათას ცხრა",
@@ -880,7 +880,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 74,
         "question": "შემოხაზეთ სწორი პასუხი: მე დავიბადე .....",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ათას ცხრაას ოთხმოცდაოთხ წელს",
         "options": [
             "ათას ცხრაას ოთხმოცდაოთხი წელი",
             "ათას ცხრაას ოთხმოცდაოთხ წელზე",
@@ -892,7 +892,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 75,
         "question": "შემოხაზეთ სწორი პასუხი: ჩემი ძმა დაიბადა ათას ცხრაას ოთხმოცდაცხრამეტ წელს. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "1999",
         "options": [
             "1909",
             "1999",
@@ -904,7 +904,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 76,
         "question": "შემოხაზეთ არასწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "საქართველო არის ბელგიის მეზობელი",
         "options": [
             "საქართველო არის სომხეთის მეზობელი",
             "საქართველო არის თურქეთის მეზობელი",
@@ -916,7 +916,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 77,
         "question": "შემოხაზეთ სწორი პასუხი: მე ვცხოვრობ ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "საქართველოში",
         "options": [
             "საქართველოში",
             "საქართველოზე",
@@ -928,7 +928,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 78,
         "question": "შემოხაზეთ სწორი პასუხი: შენ ხარ შვედი. შენ ცხოვრობ ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "შვედეთში",
         "options": [
             "შვედია",
             "შვეციას",
@@ -940,7 +940,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 79,
         "question": "შემოხაზეთ სწორი პასუხი: მე ვარ ....",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "საქართველოს მოქალაქე",
         "options": [
             "საქართველო მოქალაქე",
             "საქართველოს მოქალაქე",
@@ -952,7 +952,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 80,
         "question": "შემოხაზეთ სწორი პასუხი: ჩემკენ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მოდის",
         "options": [
             "მიდის",
             "გადავიდა",
@@ -964,7 +964,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 81,
         "question": "შემოხაზეთ სწორი პასუხი: ჩვენგან...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მიდის",
         "options": [
             "შემოვიდა",
             "მოდის",
@@ -976,7 +976,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 82,
         "question": "შემოხაზეთ სწორი პასუხი: იქითკენ:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "წავიდა",
         "options": [
             "გადმოვიდა",
             "წამოვიდა",
@@ -988,7 +988,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 83,
         "question": "შემოხაზეთ სწორი პასუხი: ეს სათამაშო მე მაჩუქეს. სათამაშო ....",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ჩემია",
         "options": [
             "ჩემია",
             "შენია",
@@ -1000,7 +1000,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 84,
         "question": "შემოხაზეთ სწორი პასუხი: ეს ოთახი არის ნანას დედის. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "დედამისის",
         "options": [
             "დედამისი",
             "დედაჩემის",
@@ -1012,7 +1012,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 85,
         "question": "შემოხაზეთ სწორი პასუხი: დედამ მიყიდა ..................... ბალიში. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ბუმბულის",
         "options": [
             "ბუმბული",
             "ბუმბულის",
@@ -1024,7 +1024,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 86,
         "question": "შემოხაზეთ სწორი პასუხი: ეს არის ............. ნაყინი. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ბამბის",
         "options": [
             "ბამბა",
             "ბამბიდან",
@@ -1036,7 +1036,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 87,
         "question": "შემოხაზეთ სწორი პასუხი: ეს ...... სახლია. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ხის",
         "options": [
             "ხის",
             "ხით",
@@ -1048,7 +1048,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 88,
         "question": "შემოხაზეთ არასწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მე ვიცნობ ის",
         "options": [
             "მე შენ გიცნობ",
             "მე ვიცნობ ის",
@@ -1060,7 +1060,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 89,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მე ვიცნობ მას",
         "options": [
             "მე შენ იცნობ",
             "შენ გიცნობს მას",
@@ -1072,7 +1072,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 90,
         "question": "შემოხაზეთ სწორი პასუხი: მომავალში:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ეს ყვავილი მეყვარება",
         "options": [
             "ეს ყვავილი მეყვარება",
             "ეს ყვავილი მიყვარდა",
@@ -1084,7 +1084,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 91,
         "question": "შემოხაზეთ სწორი პასუხი: ახლა:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მომწონს",
         "options": [
             "მომწონდა",
             "მომეწონება",
@@ -1096,7 +1096,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 92,
         "question": "შემოხაზეთ სწორი პასუხი: ვრეკავ:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ახლა",
         "options": [
             "მერე",
             "ხვალ",
@@ -1108,7 +1108,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 93,
         "question": "შემოხაზეთ სწორი პასუხი: ............. გვაქვს სათამაშო. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ჩვენ",
         "options": [
             "ჩვენ",
             "მე",
@@ -1120,7 +1120,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 94,
         "question": "შემოხაზეთ სწორი პასუხი: .......... (მე) ნამცხვარი, თუ შეიძლება. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მომაწოდეთ",
         "options": [
             "მიაწოდეთ",
             "მოგაწოდეთ",
@@ -1132,7 +1132,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 95,
         "question": "შემოხაზეთ სწორი პასუხი: თუ შეიძლება, სასტუმროში ....... . ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მიმიყვანეთ",
         "options": [
             "მიმიტანეთ",
             "მიმიყვანეთ",
@@ -1144,7 +1144,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 96,
         "question": "შემოხაზეთ სწორი პასუხი: მიმართვა ტაქსის მძღოლს",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "რამდენი მოგართვათ?",
         "options": [
             "რა ფასია?",
             "რა ღირებულება?",
@@ -1156,7 +1156,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 97,
         "question": "შემოხაზეთ სწორი პასუხი: ეს ქათამი ..............",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "რა ღირს?",
         "options": [
             "რა ღირს?",
             "როგორი?",
@@ -1168,7 +1168,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 98,
         "question": "შემოხაზეთ სწორი პასუხი: მიმტანი გვეკითხება:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "რას მიირთმევთ?",
         "options": [
             "რას დაუკრავთ?",
             "რას გვასწავლით?",
@@ -1180,7 +1180,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 99,
         "question": "შემოხაზეთ სწორი პასუხი: „თუ შეიძლება, მენიუ მომიტანეთ“, - ვეუბნებით:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მიმტანს",
         "options": [
             "ექიმს",
             "მიმტანს",
@@ -1192,7 +1192,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 100,
         "question": "შემოხაზეთ სწორი პასუხი: „რა ღირს მგზავრობა?“ - ვეკითხებით:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მძღოლს",
         "options": [
             "ექიმს",
             "მასწავლებელს",
@@ -1204,7 +1204,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 101,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "დღე - ხუთშაბათი / თვე - ნოემბერი / ეროვნება - ქართველი / ქვეყანა - ინგლისი",
         "options": [
             "თვე - ხუთშაბათი - / დღე - ნოემბერი / ეროვნება - ქართველი / ქვეყანა - ინგლისი",
             "დღე - ხუთშაბათი / თვე - ნოემბერი / ეროვნება - ქართველი / ქვეყანა - ინგლისი",
@@ -1216,7 +1216,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 102,
         "question": "შემოხაზეთ არასწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ქვეყანა - ქართველი",
         "options": [
             "დღე - ხუთშაბათი",
             "ეროვნება - ქართველი",
@@ -1228,7 +1228,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 103,
         "question": "შემოხაზეთ არასწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "თვე - ხუთშაბათი",
         "options": [
             "თვე - ხუთშაბათი",
             "ეროვნება - ქართველი",
@@ -1240,7 +1240,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 104,
         "question": "შემოხაზეთ არასწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "დღე - ნოემბერი",
         "options": [
             "ეროვნება - ინგლისელი",
             "დღე - ნოემბერი",
@@ -1252,7 +1252,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 105,
         "question": "შემოხაზეთ არასწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ეროვნება - ფრანგელი",
         "options": [
             "დღე - სამშაბათი",
             "ქვეყანა - ესპანეთი",
@@ -1264,7 +1264,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 106,
         "question": "ნინო უფრო მაღალია, ვიდრე ნანა. შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ნინო ნანაზე მაღალია",
         "options": [
             "ნინო ნანაზე მაღალია",
             "ნანა მაღალია, ნინო დაბალია",
@@ -1276,7 +1276,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 107,
         "question": "ვაშლი უფრო მიყვარს, ვიდრე მსხალი. შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ვაშლი მსხალზე მეტად მიყვარს",
         "options": [
             "ვაშლი მიყვარს, მსხალი - არა",
             "ვაშლი მსხალზე მეტად მიყვარს",
@@ -1288,7 +1288,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 108,
         "question": "საქართველოში უფრო ხშირად ჩავდივარ,ვიდრე ბელგიაში. შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "საქართველოში ბელგიაზე ხშირად ჩავდივარ",
         "options": [
             "ბელგიაში საქართველოზე ხშირად ჩავდივარ",
             "საქართველოში არ ჩავდივარ, ბელგიაში - ხშირად",
@@ -1300,7 +1300,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 109,
         "question": "შემოხაზეთ სწორი პასუხი: ეს არის სათამაშო. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ეს სათამაშოა",
         "options": [
             "ეს სათამაშოა",
             "სათამაშო",
@@ -1312,7 +1312,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 110,
         "question": "შემოხაზეთ სწორი პასუხი: ნანა სახლშია? ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "სახლში არის ნანა?",
         "options": [
             "ნანას სახლია?",
             "სახლში არის ნანა?",
@@ -1324,7 +1324,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 111,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მგზავრი აეროპორტშია",
         "options": [
             "მგზავრმა აეროპორტშია",
             "მგზავრი აეროპორტია",
@@ -1336,7 +1336,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 112,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მე ვარ ორმოცდაჩვიდმეტი წლის",
         "options": [
             "მე ვარ ორმოცდაჩვიდმეტი წელი",
             "მე ვარ ორმოცდაჩვიდმეტის წლის",
@@ -1348,7 +1348,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 113,
         "question": "შემოხაზეთ სწორი პასუხი: რამდენი წლის არის? ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ის ოცდაათი წლისაა",
         "options": [
             "ის ოცდაათი წელია",
             "ის ოცდაათი წელი",
@@ -1360,7 +1360,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 114,
         "question": "შემოხაზეთ სწორი პასუხი: მე ვარ 18 წლის, თქვენ .......",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "რამდენი წლის ბრძანდებით?",
         "options": [
             "რამდენი წლის ბრძანდებით?",
             "რამდენი წლის არის?",
@@ -1372,7 +1372,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 115,
         "question": "შემოხაზეთ სწორი პასუხი: შენ ......",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "რამდენი წლის ხარ?",
         "options": [
             "რამდენი წლის არის?",
             "რამდენი წელი ხარ?",
@@ -1384,7 +1384,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 116,
         "question": "შემოხაზეთ სწორი პასუხი: ნინო 3 წლისაა, გიორგი - ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ხუთის",
         "options": [
             "ხუთი",
             "ხუთის",
@@ -1396,7 +1396,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 117,
         "question": "შემოხაზეთ სწორი პასუხი: ეს მეგობრის მანქანაა. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ეს ვისი მანქანაა?",
         "options": [
             "ეს საიდან მანქანააეს?",
             "ეს რატომ მანქანაა?",
@@ -1408,7 +1408,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 118,
         "question": "შემოხაზეთ სწორი პასუხი: ეს არწივია. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ეს რა არის?",
         "options": [
             "ეს ვინ არის?",
             "ეს რა არის?",
@@ -1420,7 +1420,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 119,
         "question": "შემოხაზეთ სწორი პასუხი: ესენი ვინ არიან? ესენი არიან .....",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მგზავრები",
         "options": [
             "მგლები",
             "მცენარეები",
@@ -1432,7 +1432,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 120,
         "question": "შემოხაზეთ სწორი პასუხი: ძაღლი მორბის. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "რა მორბის?",
         "options": [
             "ვინ მორბის?",
             "რა მორბის?",
@@ -1444,7 +1444,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 121,
         "question": "შემოხაზეთ სწორი პასუხი: ეს არის სანდროს პაპა. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ეს პაპამისია",
         "options": [
             "ეს პაპაჩემია",
             "ეს პაპამისია",
@@ -1456,7 +1456,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 122,
         "question": "შემოხაზეთ სწორი პასუხი: საით მიემგზავრებით? ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ბათუმისკენ",
         "options": [
             "ბათუმისკენ",
             "ბათუმისგან",
@@ -1468,7 +1468,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 123,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "რამდენი ღირს პური?",
         "options": [
             "რა ფული პური?",
             "ფასი პური რა?",
@@ -1480,7 +1480,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 124,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "გამიჩერეთ შემდეგ გაჩერებაზე",
         "options": [
             "გამიჩერეთ შემდეგი გაჩერება",
             "გამიჩერეთ შემდეგ გაჩერებაზე",
@@ -1492,7 +1492,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 125,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მე მჭირდება სასწრაფო დახმარება",
         "options": [
             "მე მაქვს სასწრაფო დახმარება",
             "მე უნდა სასწრაფო დახმარება",
@@ -1504,7 +1504,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 126,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მე მინდა ტელევიზორს ვუყურო.",
         "options": [
             "მე მინდა ტელევიზორს ვუყურო.",
             "მე მინდა ტელევიზორი ვუყურო",
@@ -1516,7 +1516,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 127,
         "question": "შემოხაზეთ სწორი პასუხი: ეს ნინოს კაბაა. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ANSმისი კაბააWER",
         "options": [
             "ის კაბაა",
             "მისგან კაბაა",
@@ -1528,7 +1528,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 128,
         "question": "შემოხაზეთ არასწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ის - მათი",
         "options": [
             "მე - ჩემი",
             "ის - მათი",
@@ -1540,7 +1540,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 129,
         "question": "შემოხაზეთ სწორი პასუხი: ნინომ შეჭამა ნამცხვრის ერთი მეორედი. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ნინომ შეჭამა ნამცხვრის ნახევარი",
         "options": [
             "ნინომ შეჭამა ნამცხვრის უმეტესი ნაწილი.",
             "ნინომ სულ შეჭამა ნამცხვარი",
@@ -1552,7 +1552,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 130,
         "question": "შემოხაზეთ სწორი პასუხი: მე დავასრულე საქმის ერთი მესამედი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მე საქმის ნაწილს მოვრჩი",
         "options": [
             "მე საქმის ნაწილს მოვრჩი",
             "მე ნახევარი საქმე დავასრულე",
@@ -1564,7 +1564,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 131,
         "question": "შემოხაზეთ სწორი პასუხი: ეზოში დგას ხუთი მანქანა. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "რამდენი მანქანა დგას ეზოში?",
         "options": [
             "რა რიცხვის მანქანა დგას ეზოში?",
             "რამდენი მანქანა დგას ეზოში?",
@@ -1576,7 +1576,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 132,
         "question": "შემოხაზეთ არასწორი პასუხი: მე შევცდი, ......",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ვიზიარებ",
         "options": [
             "უკაცრავად",
             "ბოდიში",
@@ -1588,7 +1588,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 133,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ის დაიბადა 1982 წლის 5 მარტს",
         "options": [
             "ის დაიბადა 1982 წლის 5 მარტს",
             "ის დაიბადა 1982 წლის 5 მარტზე",
@@ -1600,7 +1600,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 134,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მე დავიბადე 2005 წლის შემოდგომაზე",
         "options": [
             "მე დავიბადე 2005 წლის შემოდგომაში",
             "მე დავიბადე 2005 წლის შემოდგომაზე",
@@ -1612,7 +1612,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 135,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მე დავიბადე 2005 წლის მაისში",
         "options": [
             "მე ვიბადები 2005 წლის მაისში",
             "მე დაბადება 2005 წლის მაისში",
@@ -1624,7 +1624,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 136,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "როდის დაიბადე შენ?",
         "options": [
             "როდისაა შენი დაბადება?",
             "როდის შენი დაბადება?",
@@ -1636,7 +1636,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 137,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ის მოდის კინოთეატრიდან",
         "options": [
             "ის მოდის კინოთეატრიდან",
             "ის მოდის კინოთეატრზე",
@@ -1648,7 +1648,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 138,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ქეთი სწავლობს კერვას",
         "options": [
             "ქეთი სწავლობს კერვაზე",
             "ქეთი სწავლობს კერვა",
@@ -1660,7 +1660,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 139,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ის დადის ჩოგბურთზე",
         "options": [
             "ის დადის ჩოგბურთი",
             "ის დადის ჩოგბურთზე",
@@ -1672,7 +1672,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 140,
         "question": "შემოხაზეთ სწორი პასუხი: როცა გვაინტერესებს ეროვნება:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ის იტალიელია",
         "options": [
             "ის იტალიელია",
             "ის იტალიაა",
@@ -1684,7 +1684,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 141,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მე ის მიყვარს",
         "options": [
             "შენ მას გიყვარს",
             "მე მას უყვარხარ",
@@ -1696,7 +1696,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 142,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ბავშვი ბურთით თამაშობს",
         "options": [
             "ბავშვი ბურთს თამაში",
             "ბავშვი ბურთი თამაშობს",
@@ -1708,7 +1708,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 143,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მე ვარ მწეველი",
         "options": [
             "მე მწეველი",
             "მე ვარ მწეველი",
@@ -1720,7 +1720,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 144,
         "question": "შემოხაზეთ სწორი პასუხი: მომავალ ზამთარს ბაკურიანში ....",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "წავალ",
         "options": [
             "წავალ",
             "წავედი",
@@ -1732,7 +1732,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 145,
         "question": "შემოხაზეთ სწორი პასუხი: გაზაფხულზე ყვავილებს ....",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "შევაგროვებ",
         "options": [
             "შევაგროვე",
             "შემიგროვებია",
@@ -1744,7 +1744,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 146,
         "question": "შემოხაზეთ სწორი პასუხი: დაალაგეთ თანმიმდევრობით სიდიდის ზრდის მიხედვით. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "გუბე, ტბა, ზღვა, ოკეანე",
         "options": [
             "ტბა, გუბე, ოკეანე, ზღვა",
             "ზღვა, გუბე, ოკეანე, ტბა",
@@ -1756,7 +1756,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 147,
         "question": "შემოხაზეთ სწორი პასუხი: დაალაგეთ თანმიმდევრობით სიდიდის კლების მიხედვით. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "კონტინენტი, ქვეყანა, ქალაქი, სოფელი",
         "options": [
             "კონტინენტი, ქვეყანა, ქალაქი, სოფელი",
             "სოფელი, ქალაქი, ქვეყანა, კონტინენტი",
@@ -1768,7 +1768,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 148,
         "question": "შემოხაზეთ სწორი პასუხი: დაალაგეთ თანმიმდევრობით ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "დღეს, ხვალ, ზეგ, მაზეგ.",
         "options": [
             "ზეგ, ხვალ, მაზეგ, დღეს",
             "დღეს, ხვალ, ზეგ, მაზეგ.",
@@ -1780,7 +1780,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 149,
         "question": "შემოხაზეთ სწორი პასუხი: დაალაგეთ თანმიმდევრობით:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ორი, შვიდი, თხუთმეტი, ჩვიდმეტი",
         "options": [
             "ჩვიდმეტი, ორი, შვიდი, თხუთმეტი",
             "შვიდი, ორი, ჩვიდმეტი, თხუთმეტი",
@@ -1792,19 +1792,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 150,
         "question": "შემოხაზეთ სწორი პასუხი: დაალაგეთ თანმიმდევრობით:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
-        "options": [
-            "შემოდგომა, გაზაფხული, ზამთარი, ზაფხული",
-            "გაზაფხული, ზაფხული, შემოდგომა, ზამთარი.",
-            "შემოდგომა, გაზაფხული, ზაფხული, ზამთარი",
-            "ზაფხული, შემოდგომა, გაზაფხული, ზამთარი"
-        ]
-    },
-    {
-        "numb": 150,
-        "question": "შემოხაზეთ სწორი პასუხი: დაალაგეთ თანმიმდევრობით:",
-        "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "გაზაფხული, ზაფხული, შემოდგომა, ზამთარი.",
         "options": [
             "შემოდგომა, გაზაფხული, ზამთარი, ზაფხული",
             "გაზაფხული, ზაფხული, შემოდგომა, ზამთარი.",
@@ -1816,7 +1804,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 151,
         "question": "შემოხაზეთ სწორი პასუხი",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ადრე დილით ცივა",
         "options": [
             "ადრე დილაში ცივა",
             "ადრე დილით სიცივე",
@@ -1828,7 +1816,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 152,
         "question": "შემოხაზეთ სწორი პასუხი: როგორც წესი, .....",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "გაზაფხულზე თბილა",
         "options": [
             "გაზაფხულზე თბილა",
             "ზაფხულში ცივა",
@@ -1840,7 +1828,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 153,
         "question": "შემოხაზეთ სწორი პასუხი: მე ვხედავ ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ახლა",
         "options": [
             "უწინ",
             "მერე",
@@ -1852,7 +1840,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 154,
         "question": "შემოხაზეთ სწორი პასუხი: გისმენ:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "შენ",
         "options": [
             "მათ",
             "მას",
@@ -1864,7 +1852,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 155,
         "question": "შემოხაზეთ სწორი პასუხი: ..... რიგში ვიჯექი. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "პირველ",
         "options": [
             "პირველ",
             "მეშვიდეში",
@@ -1876,7 +1864,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 156,
         "question": "შემოხაზეთ სწორი პასუხი: რომელი საათია? ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "სამის ნახევარი",
         "options": [
             "სამი და ნახევარი",
             "სამის ნახევარი",
@@ -1888,7 +1876,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 157,
         "question": "შემოხაზეთ სწორი პასუხი: სამსახურ...... სახლში წამოვედი. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "-იდან",
         "options": [
             "-ისგან",
             "-ზევე",
@@ -1900,7 +1888,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 158,
         "question": "შემოხაზეთ სწორი პასუხი:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "გაზაფხულზე დავიბადე",
         "options": [
             "ყურძენს შემოდგომაში ვწურავთ",
             "ზაფხულზე ზღვაზე ვისვენებ",
@@ -1912,7 +1900,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 159,
         "question": "შემოხაზეთ სწორი პასუხი: რომელი უპასუხებს შეკითხვას - როდის? ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ზეგ",
         "options": [
             "ზეგ",
             "ბავშვისთვის",
@@ -1924,7 +1912,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 160,
         "question": "შემოხაზეთ სწორი პასუხი: რომელი უპასუხებს შეკითხვას - სად? ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "აუზში",
         "options": [
             "აუზში",
             "უკვე",
@@ -1936,7 +1924,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 161,
         "question": "შემოხაზეთ სწორი პასუხი: რომელი უპასუხებს შეკითხვას - როგორ ? ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "საინტერესოდ",
         "options": [
             "თბილისში",
             "სახლამდე",
@@ -1948,10 +1936,11 @@ let GRAMMAR_QUESTIONS = [
         "numb": 162,
         "question": "შემოხაზეთ სწორი პასუხი: რომელი უპასუხებს შეკითხვას - საით ? ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "სახლისკენ",
         "options": [
             "ხვალ",
-            "სახლისკენ; გ.გრძელი",
+            "სახლისკენ",
+            "გრძელი",
             "მშვიდად"
         ]
     },
@@ -1959,7 +1948,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 163,
         "question": "შემოხაზეთ სწორი პასუხი: რომელი უპასუხებს შეკითხვას - როგორი ? ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მწარე",
         "options": [
             "ლამაზად",
             "ზეგ",
@@ -1971,7 +1960,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 164,
         "question": "შემოხაზეთ სწორი პასუხი: რომელი უპასუხებს შეკითხვას - მერამდენე? ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "პირველი",
         "options": [
             "პირველი",
             "ბევრი",
@@ -1983,7 +1972,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 165,
         "question": "შემოხაზეთ სწორი პასუხი: საუზმეს მივირთმევ .....",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ჩანგლით",
         "options": [
             "ჩანგალი",
             "ჩანგლით",
@@ -1995,7 +1984,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 166,
         "question": "შემოხაზეთ სწორი პასუხი: ..... ფეხსაცმელებია? ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ვისი?",
         "options": [
             "როდის?",
             "საიდან?",
@@ -2007,7 +1996,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 167,
         "question": "შემოხაზეთ არასწორი პასუხი: ..... ჩამოხვედი? ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ვისი?",
         "options": [
             "რატომ?",
             "საიდან?",
@@ -2019,7 +2008,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 168,
         "question": "შემოხაზეთ სწორი პასუხი: ..... არის ლიფტი? ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "სად?",
         "options": [
             "სად?",
             "რას?",
@@ -2031,7 +2020,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 169,
         "question": "შემოხაზეთ არასწორი პასუხი: თოკი არის:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ფართო",
         "options": [
             "გრძელი",
             "ფართო",
@@ -2043,7 +2032,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 170,
         "question": "შემოხაზეთ სწორი პასუხი: სპექტაკლი არის:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "საინტერესო",
         "options": [
             "ლურჯი",
             "ღია",
@@ -2055,7 +2044,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 171,
         "question": "შემოხაზეთ სწორი პასუხი: ვვარაუდობ, საინტერესოდ გავატარებ დღეს. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "იმედი მაქვს, საინტერესოდ გავატარებ დღეს",
         "options": [
             "იმედი მაქვს, საინტერესოდ გავატარებ დღეს",
             "საინტერესოდ ვერ გავატარებ დღეს",
@@ -2067,7 +2056,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 172,
         "question": "შემოხაზეთ სწორი პასუხი: ის კაცი ჩემ უფროს....... ითვლება. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "-ად",
         "options": [
             "-ით",
             "-ი",
@@ -2079,7 +2068,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 173,
         "question": "შემოხაზეთ სწორი პასუხი: მოხუცი მატარებლ...... მიდის. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "-ით",
         "options": [
             "-ად",
             "-ით",
@@ -2091,7 +2080,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 174,
         "question": "შემოხაზეთ სწორი პასუხი: „ინებეთ“ ნიშნავს:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "გამომართვი",
         "options": [
             "გამომართვი",
             "წადი",
@@ -2103,7 +2092,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 175,
         "question": "შემოხაზეთ სწორი პასუხი: თავაზიანობას გამოხატავს:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მიირთვი",
         "options": [
             "ჭამე",
             "აიღე",
@@ -2112,10 +2101,10 @@ let GRAMMAR_QUESTIONS = [
         ]
     },
     {
-        "numb": 17,
+        "numb": 176,
         "question": "შემოხაზეთ თავაზიანი მიმართვა",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მიხარია, რომ გაგიცანით",
         "options": [
             "გაუმარჯოს, ხომ ხარ კარგად?",
             "როგორც იქნა, გაგიცანი",
@@ -2127,7 +2116,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 177,
         "question": "შემოხაზეთ სწორი პასუხი: ეს მსხალი არის ....... . ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ყვითელი",
         "options": [
             "თხელი",
             "ყვითელი",
@@ -2139,7 +2128,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 178,
         "question": "შემოხაზეთ სწორი პასუხი: ეს სახლი არის .......",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მაღალი",
         "options": [
             "მაღალი",
             "სწრაფი",
@@ -2151,7 +2140,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 179,
         "question": "შემოხაზეთ სწორი პასუხი: 1. ავტობუსი გაჩერდება ... გაჩერებებზე. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მხოლოდ",
         "options": [
             "არა",
             "თუ",
@@ -2163,7 +2152,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 180,
         "question": "შემოხაზეთ არასწორი პასუხი: მატარებელი გადის ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ხუთივე",
         "options": [
             "ხუთ საათზე",
             "ხუთივე",
@@ -2175,7 +2164,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 181,
         "question": "შემოხაზეთ სწორი პასუხი: აკრძალვა - აქ ნუ ... ნაგავს! ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "დაყრით",
         "options": [
             "დაყრით",
             "დააბრძანებთ",
@@ -2187,7 +2176,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 182,
         "question": "შემოხაზეთ სწორი პასუხი: რით შემიძლია ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "გემსახუროთ?",
         "options": [
             "გეწვიოთ?",
             "გიმსახუროთ?",
@@ -2199,7 +2188,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 183,
         "question": "შემოხაზეთ სწორი პასუხი: შესასვლელთან მანქანას ნუ ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "გააჩერებთ",
         "options": [
             "დადგამთ",
             "დაასვენებთ",
@@ -2211,7 +2200,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 184,
         "question": "შემოხაზეთ სწორი პასუხი: ახალი ფილმი მომდევნო პარასკევს ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "გამოვა",
         "options": [
             "შედგება",
             "გამოვა",
@@ -2223,7 +2212,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 185,
         "question": "შემოხაზეთ სწორი პასუხი: დღეს 3 აპრილია. ჩემი დაბადების დღე არის 3 მაისს ანუ:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ერთ თვეში",
         "options": [
             "ერთ დღეში",
             "ერთ კვირაში",
@@ -2235,7 +2224,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 186,
         "question": "შემოხაზეთ სწორი პასუხი: ამ სპექტაკლს ორი კვირის ... გაიმეორებენ. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "შემდეგ",
         "options": [
             "ხვალ",
             "წინ",
@@ -2247,7 +2236,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 187,
         "question": "შემოხაზეთ სწორი პასუხი: ჟურნალისტმა მინისტრს კითხვა ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "დაუსვა",
         "options": [
             "დაუსვა",
             "გამოკითხა",
@@ -2259,7 +2248,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 188,
         "question": "შემოხაზეთ სწორი პასუხი: თუ ნინო პირველკურსელია, იგი დადის ....",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "უნივერსიტეტში",
         "options": [
             "სკოლაში",
             "უნივერსიტეტში",
@@ -2271,7 +2260,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 189,
         "question": "შემოხაზეთ სწორი პასუხი: ძლიერი ქარი ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ქრის",
         "options": [
             "დარბის",
             "დადის",
@@ -2283,7 +2272,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 190,
         "question": "შემოხაზეთ სწორი პასუხი: ტელევიზიით ... ახალი ამბები. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "გადმოსცეს",
         "options": [
             "გადმოიტანეს",
             "გადმოყარეს",
@@ -2295,7 +2284,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 191,
         "question": "შემოხაზეთ არასწორი პასუხი: მეტრო იმუშავებს ყოველდღე, შაბათ-კვირის გარდა. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მეტრო იმუშავებს შაბათს",
         "options": [
             "მეტრო იმუშავებს შაბათს",
             "მეტრო იმუშავებს ოთხშაბათს",
@@ -2307,7 +2296,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 192,
         "question": "შემოხაზეთ არასწორი პასუხი: დღეს ორშაბათია. ბილეთები გაიყიდება ოთხშაბათიდან კვირის ჩათვლით. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ბილეთები გაიყიდება სამშაბათს",
         "options": [
             "ბილეთები გაიყიდება ხუთშაბათს",
             "ბილეთები გაიყიდება სამშაბათს",
@@ -2319,7 +2308,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 193,
         "question": "შემოხაზეთ არასწორი პასუხი: კვირას დღის მეორე ნახევრიდან იწვიმებს. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "კვირას დილიდანვე იწვიმებს",
         "options": [
             "კვირას დილით არ იწვიმებს",
             "კვირას საღამოს იწვიმებს",
@@ -2331,7 +2320,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 194,
         "question": "შემოხაზეთ არასწორი პასუხი: წელს ზღვაზე დასვენებას ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მივდივარ",
         "options": [
             "ვაპირებ",
             "ვგეგმავ",
@@ -2343,7 +2332,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 195,
         "question": "შემოხაზეთ არასწორი პასუხი: ხვალ, სავარაუდოდ, იწვიმებს. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ხვალ აუცილებლად იწვიმებს",
         "options": [
             "ხვალ აუცილებლად იწვიმებს",
             "შეიძლება ხვალ იწვიმოს",
@@ -2355,7 +2344,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 196,
         "question": "შემოხაზეთ არასწორი პასუხი: მეტრო იმუშავებს 2 იანვრის ღამის პირველ საათამდე. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "მეტრო იმუშავებს 2 იანვარს, 02.30-ზე",
         "options": [
             "მეტრო იმუშავებს 2 იანვარს, 00.30-ზე",
             "მეტრო იმუშავებს 2 იანვარს, 02.30-ზე",
@@ -2367,7 +2356,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 197,
         "question": "შემოხაზეთ სწორი პასუხი: ახალ წელს ყოველთვის ... ნამცხვარს. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ვაცხობთ",
         "options": [
             "ვწვავთ",
             "ვყინავთ",
@@ -2379,7 +2368,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 198,
         "question": "შემოხაზეთ სწორი პასუხი: „ცა მოწმენდილია“ ნიშნავს:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ცა უღრუბლოა",
         "options": [
             "ცაზე ღრუბლებია",
             "წვიმს",
@@ -2391,7 +2380,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 199,
         "question": "შემოხაზეთ სწორი პასუხი: გზაზე ბევრი მოსახვევია. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "გზა სწორი არ არის",
         "options": [
             "გზა სწორია",
             "გზა სწორი არ არის",
@@ -2403,7 +2392,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 200,
         "question": "შემოხაზეთ სწორი პასუხი: გიორგიმ დილით ... . ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ისაუზმა",
         "options": [
             "ისაუზმა",
             "ისადილა",
@@ -2415,7 +2404,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 201,
         "question": "შემოხაზეთ სწორი პასუხი: რა გვაქვს ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ვახშმად",
         "options": [
             "კვებად",
             "ჭამად",
@@ -2427,7 +2416,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 202,
         "question": "შემოხაზეთ სწორი პასუხი: ჩოგბურთი ჩემი საყვარელი ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "სპორტია",
         "options": [
             "სპორტსმენია",
             "ბურთია",
@@ -2439,7 +2428,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 203,
         "question": "შემოხაზეთ სწორი პასუხი: ეს წამალი ... გაციებას. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "შველის",
         "options": [
             "აკეთებს",
             "შველის",
@@ -2451,7 +2440,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 204,
         "question": "შემოხაზეთ სწორი პასუხი: ამ ფილმზე 12 წლამდე ბავშვები არ ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "დაიშვებიან",
         "options": [
             "აკრძალულია",
             "უყურებენ",
@@ -2463,7 +2452,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 205,
         "question": "შემოხაზეთ სწორი პასუხი: მცხეთა თბილისთან ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ახლოა",
         "options": [
             "მალევეა",
             "ახლოზეა",
@@ -2475,7 +2464,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 206,
         "question": "შემოხაზეთ სწორი პასუხი: მატარებლით პირველად ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ვმგზავრობ",
         "options": [
             "დავრბივარ",
             "ვმგზავრობ",
@@ -2487,7 +2476,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 207,
         "question": "შემოხაზეთ სწორი პასუხი: გუშინ მთელი დღე ...",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "თოვდა",
         "options": [
             "ითოვებს",
             "თოვს",
@@ -2499,7 +2488,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 208,
         "question": "შემოხაზეთ სწორი პასუხი: „მოსაღამოვდა“ ნიშნავს:",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "დადგა საღამო",
         "options": [
             "დადგა საღამო",
             "უკვე დაღამდა",
@@ -2511,7 +2500,7 @@ let GRAMMAR_QUESTIONS = [
         "numb": 209,
         "question": "შემოხაზეთ სწორი პასუხი: დღეს ვიყიდე ერთი ... თაფლი. ",
         "question_rus": "RUS_QUESTION",
-        "answer": "ANSWER",
+        "answer": "ქილა",
         "options": [
             "ცალი",
             "ქილა",
