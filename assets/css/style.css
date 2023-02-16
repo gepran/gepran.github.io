@@ -17,14 +17,7 @@ body{
     background: #007bff;
 }
 
-.info_box,
-.quiz_box,
-.result_box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 
 .info_box.activeInfo,
 .quiz_box.activeQuiz,
