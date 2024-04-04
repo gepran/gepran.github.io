@@ -203,6 +203,7 @@ footer button.show{
   .tbc-btn img{
     border: 1px solid rgb(0 176 240 / 40%);
     margin: 2px;
+    background: #fff;
   }
   .bog-btn{
     padding: 0;
@@ -212,7 +213,19 @@ footer button.show{
   .bog-btn:hover{
     background: rgb(255 96 10);
   }
-  .tbc-btn img{
+  .bog-btn img{
+    border: 1px solid rgb(255 90 0 / 40%);
+    margin: 2px;
+  }
+  .paypal-btn{
+    padding: 0;
+    border: 1px solid rgb(39 52 106 / 40%);
+    background: rgb(39 52 106 / 40%);
+  }
+  .paypal-btn:hover{
+    background: rgb(39 52 106 / 40%);
+  }
+  .paypal-btn img{
     border: 1px solid rgb(255 90 0 / 40%);
     margin: 2px;
   }
