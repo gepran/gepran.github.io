@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }, 5000);
     
         } else if (isIphone) {
-            window.location.replace(`tbc://${rediredtPath}`);
+            window.location.replace(`tbc://MB/TT/${tbc_account}`);
     
             setTimeout(() => {
             window.location.replace(
