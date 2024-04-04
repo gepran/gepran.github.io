@@ -44,9 +44,9 @@ document.addEventListener("DOMContentLoaded", () => {
     //     copyTextToClipboard(service_fee);
     // });
 
-    RECEIVER.addEventListener("click", () => {
-        ALERT_INNER_TEXT.innerText = "Receiver Copied!";
-        copyTextToClipboard(receiver);
-    });
+    // RECEIVER.addEventListener("click", () => {
+    //     ALERT_INNER_TEXT.innerText = "Receiver Copied!";
+    //     copyTextToClipboard(receiver);
+    // });
 
 });
