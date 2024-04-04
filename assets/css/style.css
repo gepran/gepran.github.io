@@ -201,7 +201,6 @@ footer button.show{
   .tbc-btn:hover{
     background: rgb(0 176 240);
   }
-  .tbc-btn .btn-label{ }
   .bog-btn{
     padding: 0;
     border: 1px solid rgba(0, 0, 0, 0.15);
@@ -211,4 +210,21 @@ footer button.show{
   .bog-btn:hover{
     background: rgb(255 96 10);
   }
-  .bog-btn .btn-label{ }
+  .boombuli-btn-labeled .btn-label {
+    position: relative;
+    display: inline-block;
+    padding: 12px 17px;
+    margin: 3px;
+    background: rgba(0, 0, 0, 0.15);
+  }
+  
+  .boombuli-btn-labeled {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0 20px;
+    font-size: 17px;
+  }
+  
+  .boombuli-btn-labeled .btn {
+    margin-bottom: 10px;
+  }
