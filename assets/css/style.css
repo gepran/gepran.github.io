@@ -248,3 +248,16 @@ footer button.show{
   .boombuli-btn-labeled .btn {
     margin-bottom: 10px;
   }
+  
+  div.copy-alert{
+    width: 180px;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 50%;
+    margin-left: -90px;
+    color: white;
+    background: #000;
+    opacity: 0.9;
+    border: 1px solid #fff;
+  }
