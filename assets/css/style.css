@@ -192,3 +192,24 @@ footer button.show{
 .support-btn a{
     text-decoration: none;
 }
+
+.tbc-btn{
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: rgb(0 176 240 / 90%);
+    color: #ffffff;
+  }
+  .tbc-btn:hover{
+    background: rgb(0 176 240);
+  }
+  .tbc-btn .btn-label{ }
+  .bog-btn{
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: rgb(255 96 10 / 90%);
+    color: #ffffff;
+  }
+  .bog-btn:hover{
+    background: rgb(255 96 10);
+  }
+  .bog-btn .btn-label{ }
