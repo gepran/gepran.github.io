@@ -194,21 +194,27 @@ footer button.show{
 
 .tbc-btn{
     padding: 0;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    background: rgb(0 176 240 / 90%);
-    color: #ffffff;
+    border: 1px solid rgb(0 176 240 / 40%);
+    background: rgb(0 176 240 / 40%);
   }
   .tbc-btn:hover{
     background: rgb(0 176 240);
   }
+  .tbc-btn img{
+    border: 1px solid rgb(0 176 240 / 40%);
+    margin: 2px;
+  }
   .bog-btn{
     padding: 0;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    background: rgb(255 96 10 / 90%);
-    color: #ffffff;
+    border: 1px solid rgb(255 90 0 / 40%);
+    background: rgb(255 96 10 / 40%);
   }
   .bog-btn:hover{
     background: rgb(255 96 10);
+  }
+  .tbc-btn img{
+    border: 1px solid rgb(255 90 0 / 40%);
+    margin: 2px;
   }
   .boombuli-btn-labeled .btn-label {
     position: relative;
