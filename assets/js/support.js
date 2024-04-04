@@ -21,19 +21,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const androidRedirect = function(scheme_url, iBan, rediredtPath) {
         const url = `intent://tbconline.ge/MB/${rediredtPath}/#Intent;scheme=https;package=com.icomvision.bsc.tbc;end`;
-        window.location.replace(url);
+        if(url){
+            setTimeout(() => {
+                window.location.replace(url);
+            }, 500);
+        }
 
         setTimeout(() => {
-        window.location.replace(
-            "https://play.google.com/store/apps/details?id=com.icomvision.bsc.tbc"
-        );
+            window.location.replace("https://play.google.com/store/apps/details?id=com.icomvision.bsc.tbc");
         }, 5000);
     }
 
     const iphoneRedirect = function(scheme_url, iBan) {
-        // https://tbconline.ge/MB/TT
-        window.location.replace(`${scheme_url}/${iBan}`);
-    
+        if(scheme_url){
+            setTimeout(() => {
+                // https://tbconline.ge/MB/TT
+                window.location.replace(`${scheme_url}/${iBan}`);
+            }, 500);
+        }
+
         setTimeout(() => {
         window.location.replace(
             "https://apps.apple.com/us/app/tbc-bank/id766598432"
