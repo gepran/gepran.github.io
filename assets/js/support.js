@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const RECEIVER = document.getElementById("boombuli-receiver");
 
     
-    const tbc_account = "GE18TB7361245164300005";
-    const bog_account = "GE17BG0000000131452770";
+    const tbc_account = "GE69TB7003612365100038";
+    const bog_account = "GE25BG0000000542914598";
     //const service_fee = "Service Fee";
     const receiver = "Garegin Epranosyan";
     
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }, 5000);
     
         } else if (isIphone) {
-            window.location.replace(`tbc://MB/TT/${tbc_account}`);
+            window.location.replace(`https://tbconline.ge/MB/TT/${tbc_account}`);
     
             setTimeout(() => {
             window.location.replace(
