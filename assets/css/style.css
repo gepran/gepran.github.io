@@ -220,14 +220,15 @@ footer button.show{
   .paypal-btn{
     padding: 0;
     border: 1px solid rgb(39 52 106 / 40%);
-    background: rgb(39 52 106 / 40%);
+    background: rgb(78 100 191 / 40%);
   }
   .paypal-btn:hover{
     background: rgb(39 52 106 / 40%);
   }
   .paypal-btn img{
-    border: 1px solid rgb(255 90 0 / 40%);
+    border: 1px solid rgb(39 52 106 / 40%);
     margin: 2px;
+    background: #fff;
   }
   .boombuli-btn-labeled .btn-label {
     position: relative;

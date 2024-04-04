@@ -25,24 +25,6 @@
 
 	gtag('config', 'G-GJ74WJK208');
 	</script>
-
-    <script>
-        function copyToClipboard(text) {
-            const textArea = document.createElement("textarea");
-            textArea.value = text;
-            document.body.appendChild(textArea);
-            textArea.select();
-            document.execCommand("copy");
-            textArea.remove();
-
-            const message = document.getElementById("message");
-            message.textContent = "Банковский шьет скопирован";
-            message.style.display = "block";
-            setTimeout(function() {
-                message.style.display = "none";
-            }, 2000);
-        }
-	</script>
 </head>
 <body>
 	
@@ -61,83 +43,32 @@
             <div class="d-grid gap-2 pt-3">
                 <h3 class="text-center">Поддержите наш сайт!</h3>
                 <p class="text-center mb-5" style="font-size: 13px;">
-                    Ваша донация позволит нам продолжать развивать и улучшать наш сайт, обеспечивая вам лучший опыт пользования. Все донации пойдут на улучшение качества контента, техническую поддержку и повышение эффективности сайта. Каждая донация важна для нас и мы ценим вашу поддержку! Спасибо за вашу помощь в развитии нашего сайта."
+                    Ваша донация позволит нам продолжать развивать и улучшать наш сайт, обеспечивая вам лучший опыт пользования. 
+                    Все донации пойдут на улучшение качества контента, техническую поддержку и повышение эффективности сайта. 
+                    Каждая донация важна для нас и мы ценим вашу поддержку! Спасибо за вашу помощь в развитии нашего сайта."
                 </p>
 
-                <!-- <h5 class="text-center mb-0">TBC - Bank</h5> -->
                 <button type="button" class="btn btn-lg rounded-pill text-start boombuli-btn-labeled tbc-btn mb-3" id="tbc-btn">
-                    <!-- <span class="btn-label rounded-pill">
-                        <i class="fa-regular fa-copy"></i>
-                    </span> -->
                     <img src="/assets/img/banks/tbc_logo.png" width="50" class="img-fluid rounded-circle" alt="...">
                     <span>GE27TB7924345064400003</span>
                 </button>
             
-                <!-- <h5 class="text-center mb-0">Bank of Georgia</h5> -->
                 <button type="button" class="btn btn-lg rounded-pill text-start boombuli-btn-labeled bog-btn mb-3" id="bog-btn">
-                    <!-- <span class="btn-label rounded-pill">
-                        <i class="fa-regular fa-copy"></i>
-                    </span> -->
                     <img src="/assets/img/banks/bog_logo.png" width="50" class="img-fluid rounded-circle" alt="...">
                     <span>GE68BG0000000533443714</span>
                 </button>
 
-                <button type="button" class="btn btn-lg rounded-pill text-start boombuli-btn-labeled paypal-btn mb-5" id="paypal-btn">
-                    <!-- <span class="btn-label rounded-pill">
-                        <i class="fa-regular fa-copy"></i>
-                    </span> -->
+                <a href="https://www.paypal.me/gepran" target="_blank" type="button" id="paypal-btn"
+                class="btn btn-lg rounded-pill text-start boombuli-btn-labeled paypal-btn mb-5">
                     <img src="/assets/img/banks/paypal_logo.png" width="50" class="img-fluid rounded-circle" alt="...">
                     <span>@gepran</span>
                 </button>
 
                 <div id="message" class="alert alert-success" role="alert" style="display: none;"></div>
-
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-2">
-                            <img src="/assets/img/banks/tbc_logo.png" width="50" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-10 mt-3">
-                            <h6 class="card-title" onclick="copyToClipboard('GE18TB7361245164300005')">
-                                <span>GE18TB7361245164300005</span>
-                                <i class="fa-regular fa-copy text-end "></i>
-                            </h6>                            
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-2">
-                            <img src="/assets/img/banks/bog_logo.png" width="50" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-10 mt-3">
-                            <h6 class="card-title" onclick="copyToClipboard('GE17BG0000000131452770')">
-                                <span>GE17BG0000000131452770</span>
-                                <i class="fa-regular fa-copy text-end "></i>
-                            </h6>                            
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-2">
-                            <img src="/assets/img/banks/paypal_logo.png" width="50" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-8 mt-3">
-                            <a href="https://www.paypal.me/gepran" target="_blank" 
-                            style="color: black;"> 
-                                <h6 class="card-title">
-                                    <span>Донация</span>
-                                    <i class="fa-solid fa-link"></i>
-                                </h6>          
-                            </a>                            
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </main>
+
+    <script src="/assets/js/support.js"></script>
 </body>
 </html>
