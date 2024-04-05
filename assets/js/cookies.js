@@ -35,6 +35,13 @@ function getDeviceCookie() {
     return "";
 }
 
+function deleteCookie(name) {
+    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+}
+
+// Example usage:
+//deleteCookie("device_id");
+
 // Example usage
 var deviceId = getDeviceCookie();
 if (!deviceId) {
