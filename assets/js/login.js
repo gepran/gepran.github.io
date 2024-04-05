@@ -1,5 +1,3 @@
-checkUserSession();
-
 const login_btn = document.querySelector(".login_btn");
 const alert_wrong_aut = document.querySelector(".alert-danger");
 
@@ -38,3 +36,5 @@ function checkUserSession(){
         window.open("index.html", "_self");
     }
 }
+
+checkUserSession();
